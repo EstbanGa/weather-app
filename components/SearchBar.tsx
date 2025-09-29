@@ -38,7 +38,7 @@ export default function SearchBar({ onSelectCity }: SearchBarProps) {
       } finally {
         setIsLoading(false);
       }
-    }, 300);
+    }, 300); // 300ms debounce
 
     return () => {
       if (debounceTimer.current) {

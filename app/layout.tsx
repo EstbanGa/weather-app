@@ -24,7 +24,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-gray-800 text-white py-6 mt-12">
           <div className="container mx-auto px-4 text-center">
-            <p>© 2025 El Clima - Datos proporcionados por Open-Meteo</p>
+            <p>© 2025 Sebas y Yo, Lo Mejor de lo Mejor</p>
           </div>
         </footer>
       </body>
