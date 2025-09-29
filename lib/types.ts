@@ -1,4 +1,4 @@
-// Tipos para la búsqueda de ciudades (Geocoding)
+// Tipos para la búsqueda de ciudades
 export interface City {
   id: number;
   name: string;

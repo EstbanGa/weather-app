@@ -1,6 +1,4 @@
 import { GeocodingResponse, WeatherResponse } from './types';
-
-// Base URLs
 const GEOCODING_URL = 'https://geocoding-api.open-meteo.com/v1/search';
 const WEATHER_URL = 'https://api.open-meteo.com/v1/forecast';
 
@@ -73,6 +71,8 @@ export function getWeatherDescription(code: number): string {
     51: 'Llovizna ligera',
     53: 'Llovizna moderada',
     55: 'Llovizna intensa',
+    56: 'Llovizna helada ligera',
+    57: 'Llovizna helada intensa',
     61: 'Lluvia ligera',
     63: 'Lluvia moderada',
     65: 'Lluvia intensa',
